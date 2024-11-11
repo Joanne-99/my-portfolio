@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Portfolio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Orbit&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Iceland&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body style="background-color: black;">
+        <header class="header">
+            <a href="home" class="logo">Joanne.</a>
+            <i class="bx bx-menu" id="menu-icon"></i>
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#journey">Journey</a>
+                <a href="#projects">Project</a>
+                <a href="#skill">Skill</a>
+                <a href="#activity">Activity</a>
+            </nav>
+            <a href="#about" class="contact-btn">
+                Contact Me
+            </a>
+        </header>
+
+        <section class="home" id="home">
+            <div class="bg-animation">
+                <div id="stars"></div>
+                <div id="stars2"></div>
+                <div id="stars3"></div>
+                <div id="stars4"></div>
+            </div>
+
+            <div class="home-content">
+                <h3>Hi! I'm </h3>
+                <h1 style="margin-top: 0px;">Joanne Cheng</h1>
+                <h2>UI/UX Designer</h2>
+                <p>
+                    I am a fresh graduate with a background of Information Technology specialization in mobile technology. As a beginner and self-taught designer, I’ve developed a strong enthusiasm in designing and enhancing app and website.
+                </p>
+
+                <div class="btn-group">
+                    <a href="https://drive.google.com/file/d/1vVop0c7_NVzy-VIHA8bsOh7BqlSs8q0Q/view?usp=sharing" target="_blank" class="btn">See My Resume</a>
+                </div> 
+            </div>
+            <img class="my-pic" src="/photo/pic1.jpeg">
+        </section>
+        
+        <section class="about" id="about">
+            <h1>Contact Me</h1>
+            <div class="about-container">
+                <img class="about-img" src="/photo/me.jpeg">
+                <div class="column">
+                    <div class="row">
+                        <div class="social-icons">
+                            <a href="mailto:joannecheng0608@gmail.com">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <p>joannecheng0608@gmail.com</p>
+                    </div>
+        
+                    <div class="row">
+                        <div class="social-icons">
+                            <a href="https:www.linkedin.com/in/jiaen-cheng0608" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <p>www.linkedin.com/in/jiaen-cheng0608</p>
+                    </div>
+        
+                    <div class="row">
+                        <div class="social-icons">
+                            <a href="https://github.com/Joanne-99" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <p>https://github.com/Joanne-99</p>
+                    </div>
+        
+                    <div class="row">
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/jiaenimnida_" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <p>jiaenimnida_</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+   
+        <section class="journey" id="journey">
+            <h1>My Journey</h1>
+            <div class="journey-row-top">
+                <div class="journey-box">
+                    <div class="journey-content">
+                        <h2>Part Time Usherer</h2>
+                        <h3>Troopers | 4 events</h3>
+                        <p>- Usher the guest to their seats</p>
+                        <p>- Check the ticket of the guest and scan the ticket using the ticketing machine.</p>
+                        <p>- Control the crowd and guide the guest to the correct section</p>
+                    </div>
+                    <div class="job-photo">
+                        <img src="/photo/job1.jpeg">
+                    </div>
+                </div>
+                <div class="journey-box">
+                    <div class="journey-content">
+                        <h2>UI/UX Designer</h2>
+                        <h3>iFAST Sdn. Bhd. (4 months Internship)</h3>
+                        <p>- Creating wireframe, prototype, graphics and icons for the app and website</p>
+                        <p>- Implement User Acceptance Testing (UAT) for the trial app that are going to be released.</p> 
+                        <p>- Redesign UI based on the old website.</p>        
+                    </div>
+                    <div class="job-photo">
+                        <img src="/photo/job.jpeg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-container">
+                <div class="timeline">
+                    <div class="swiper-slide">
+                        <div class="timestamp">
+                            <span>2024<span>
+                        </div>
+                        <div class="status">
+                            <span>2024 - 2019<span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="timestamp">
+                            <span>2022<span>
+                        </div>
+                        <div class="status">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="timestamp">
+                            <span>2021<span>
+                        </div>
+                        <div class="status">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="timeline">
+                            <span style="margin-bottom: 20px; margin-left: -110px; padding-top: 20px; letter-spacing: 1.5px; font-size:20px;">2019<span>
+                        </div>
+                        <div class="status">
+                            <span style="margin-left: -160px;">2019 - 2018</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="journey-row-bottom">
+                <div class="journey-box" style="width:580px; margin-left: 30px; white-space: normal;">
+                    <div class="journey-content">
+                        <h2>Ba(Hons) in IT</h2>
+                        <h3>Asia Pacific University of Technology & Innovation (APU)</h3>
+                        <p>Bachelor’s Degree in Information Technology specialization in Mobile Technology</p>
+                    </div>
+                    <div class="job-photo">
+                        <img src="/photo/apu.jpeg">
+                    </div>
+                </div>
+                <div class="journey-box" style="width:250px; margin-right: 30px; white-space: normal;">
+                    <div class="journey-content">
+                        <h2>STPM</h2>
+                        <p>SMK Tunku Abdul Rahman, Nibong Tebal, Pulau Pinang</p>
+                    </div>
+                    <div class="job-photo">
+                        <img src="/photo/form6.jpg">
+                    </div>
+                </div>
+            </div>     
+        </section>
+    
+        <section class="projects" id="projects">
+        <h1>Project</h1>
+            <div class="project-box">
+                <div class="project-container">
+                    <img src="/photo/sp.png">
+                    <div class="middle">
+                        <div class="more-btn">
+                            <a style="text-decoration: none; color: black;" href="project1.html" target="_blank">See More</a>
+                        </div>   
+                    </div>
+                </div>
+                <div class="project-container">
+                    <img src="/photo/fyp.png">
+                    <div class="middle">
+                        <div class="more-btn">
+                        <a style="text-decoration: none; color: black;" href="project2.html" target="_blank">See More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-container">
+                    <img src="/photo/hci.png">
+                    <div class="middle">
+                        <div class="more-btn">
+                            <a style="text-decoration: none; color: black;" href="project3.html" target="_blank">See More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-container">
+                    <img src="/photo/android.png">
+                    <div class="middle">
+                        <div class="more-btn">
+                            <a style="text-decoration: none; color: black;" href="project4.html" target="_blank">See More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skill" id="skill">
+            <h1>Skill</h1>
+            <h2>Hard Skills</h2>
+                <div class="skill-wrapper">
+                    <div class="skill-container">
+                        <div class="percentage" style="--percentage: 60;">
+                            <h3>60%</h3>
+                        </div>
+                        <p>Designing/Prototyping</p>
+
+                        <p>Figma</p>
+                        <div class="container">
+                            <div class="skills figma">80%</div>
+                        </div>
+
+                        <p>Adobe XD</p>
+                        <div class="container">
+                            <div class="skills xd">70%</div>
+                        </div>
+
+                        <p>Axure XP9</p>
+                        <div class="container">
+                            <div class="skills axure">50%</div>
+                        </div>
+
+                        <p>Adobe Illustrator</p>
+                        <div class="container">
+                            <div class="skills illustrator">40%</div>
+                        </div>
+                    </div>
+                    <div class="skill-container">
+                        <div class="percentage" style="--percentage: 44;">
+                            <h3>44%</h3>
+                        </div>
+                        <p>Programming</p>
+                        <p>HTML/CSS</p>
+                        <div class="container">
+                            <div class="skills html">65%</div>
+                        </div>
+
+                        <p>JavaScript</p>
+                        <div class="container">
+                            <div class="skills js">50%</div>
+                        </div>
+                    </div>
+                    <div class="skill-container">
+                        <div class="percentage" style="--percentage: 68;">
+                            <h3>68%</h3>
+                        </div>
+                        <p>Documenting</p>
+                        <p>Microsoft Words</p>
+                        <div class="container">
+                            <div class="skills words">80%</div>
+                        </div>
+
+                        <p>Microsoft Powerpoint</p>
+                        <div class="container">
+                            <div class="skills powerpoint">70%</div>
+                        </div>
+
+                        <p>Microsoft Excel</p>
+                        <div class="container">
+                            <div class="skills excel ">50%</div>
+                        </div>
+                    </div>
+                </div>     
+            <h2>Soft Skills</h2> 
+            <div class="soft-skill">
+                <div class="soft-skill-container">
+                    <div class="soft-skill-box" style="padding:15px 70px;">
+                        <h3>Flexibility</h3>
+                        <div class="detail">
+                            <p>I enjoy working in dynamic environment which allow me to integrate new ideas into projects.</p>
+                        </div>
+                    </div>
+                    <div class="soft-skill-box" style="padding:15px 40px;">
+                        <h3>Adaptability</h3>
+                        <div class="detail">
+                            <p>I can quickly adapt to different tasks to ensure efficiently. </p>
+                        </div>
+                    </div>
+                    <div class="soft-skill-box">
+                        <h3>Time Management</h3>
+                        <div class="detail">
+                            <p>I'm able to multitask and prioritize the project tasks even when the circumstances change unexpectedly.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="soft-skill-container">
+                    <div class="soft-skill-box" style="padding:15px 70px;">
+                        <h3>Creativity</h3>
+                        <div class="detail">
+                            <p>I was in charge in creating new illustration for B2B new investment app.</p>
+                        </div>
+                    </div>
+                    <div class="soft-skill-box" style="padding:15px 70px;">
+                        <h3>Teamwork</h3>
+                        <div class="detail">
+                            <p>I work with front-end developers and UI/UX designers that align with project goals as a team.</p>
+                        </div>
+                    </div>
+                    <div class="soft-skill-box" style="padding:15px 80px;">
+                        <h3>Patience</h3>
+                        <div class="detail">
+                            <p>I have the patience in designing process and explore design for solutions.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="soft-skill-container">
+                    <div class="soft-skill-box" >
+                        <h3>Accept Criticism</h3>
+                        <div class="detail">
+                            <p>I'm always open to constructive criticism for improving my skills.</p>
+                        </div>
+                    </div>
+                    <div class="soft-skill-box" >
+                        <h3>Active Listening</h3>
+                        <div class="detail">
+                            <p>I'm good at listening because I can fully understand the task given by supervisor to prevent misunderstanding.</p>
+                        </div>
+                    </div>
+                    <div class="soft-skill-box" >
+                        <h3>Problem Solving</h3>
+                        <div class="detail">
+                            <p>Redesign old website user interface based on client feedback to enhance the design and improve their experience</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="activity" id="activity">
+            <h1>My Activity</h1>
+            <div class="carousel">
+                <div class="carousel-inner">
+                    <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+                    <div class="carousel-item">
+                        <h2>Part Time Job Show</h2>
+                        <div class="carousel-column">
+                            <img src="photo/show.jpeg">
+                            <img src="photo/shows.jpeg">
+                        </div>
+                        
+                    </div>
+
+                    <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="" checked="checked">
+                    <div class="carousel-item">
+                        <h2>Performance</h2>
+                        <div class="carousel-column">
+                            <img src="photo/performancess.jpeg">
+                            <img src="photo/performance.jpeg">
+                        </div>
+                    </div>
+
+                    <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+                    <div class="carousel-item">
+                        <h2>KPOP Dance in Public</h2>
+                        <div class="carousel-column">
+                            <img src="photo/public.jpeg">
+                            <img src="photo/publics.jpeg">
+                        </div>
+                    </div>
+
+                    <input class="carousel-open" type="radio" id="carousel-4" name="carousel" aria-hidden="true" hidden="">
+                    <div class="carousel-item">
+                        <h2>KPOP Dance Competition</h2>
+                        <div class="carousel-column">
+                            <img src="photo/comps.jpeg">
+                            <img src="photo/comp.jpeg">
+                        </div>
+                    </div>
+
+                    <input class="carousel-open" type="radio" id="carousel-5" name="carousel" aria-hidden="true" hidden="">
+                    <div class="carousel-item">
+                        <h2>KPOP Dance Cover</h2>
+                        <div class="carousel-column">
+                            <img src="photo/cover.jpeg">
+                            <img src="photo/covers.jpeg">
+                        </div>
+                    </div>
+
+                    <label for="carousel-5" class="carousel-control prev control-1">‹</label>
+                    <label for="carousel-2" class="carousel-control next control-1">›</label>
+
+                    <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+                    <label for="carousel-3" class="carousel-control next control-2">›</label>
+
+                    <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+                    <label for="carousel-4" class="carousel-control next control-3">›</label>
+
+                    <label for="carousel-3" class="carousel-control prev control-4">‹</label>
+                    <label for="carousel-5" class="carousel-control next control-4">›</label>
+
+                    <label for="carousel-4" class="carousel-control prev control-5">‹</label>
+                    <label for="carousel-1" class="carousel-control next control-5">›</label>
+                    
+                    <ol class="carousel-indicators">
+                        <li>
+                            <label for="carousel-1" class="carousel-bullet">•</label>
+                        </li>
+                        <li>
+                            <label for="carousel-2" class="carousel-bullet">•</label>
+                        </li>
+                        <li>
+                            <label for="carousel-3" class="carousel-bullet">•</label>
+                        </li>
+                        <li>
+                            <label for="carousel-4" class="carousel-bullet">•</label>
+                        </li>
+                        <li>
+                            <label for="carousel-5" class="carousel-bullet">•</label>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <p>
+                During my university years and continuing to this day, I have been passionate about dancing. I'm a part-time performer that performed at annual dinners, opening ceremonies, and road show events performance other than school events.
+                I like to challenge myself by joining multiple dance competitions, dance covers and public dance covers for YouTube.
+                All the experience has taught me to adapt to new routines quickly and work collaboratively when performing in groups.
+            </p>
+                <p>End.</p>
+            </section>
+
+        <section class="footer" id="footer">
+            <h1>Thanks for reading!</h1>
+            <div class="social-icons">
+                <div class="row" style="justify-content: center; align-items: center;">
+                    <a href="mailto:joannecheng0608@gmail.com">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                        </svg>
+                    </a>
+                    <a href="https:www.linkedin.com/in/jiaen-cheng0608" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/Joanne-99" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/jiaenimnida_" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <p>© Joanne Cheng | All Rights Reserved</p>
+        </section>
+    </body>
+</html>
